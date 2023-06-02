@@ -10,7 +10,7 @@ from langchain.prompts.prompt import PromptTemplate
 
 from sqlalchemy.engine import URL
 # copied from Open AI
-os.environ["OPENAI_API_KEY"] = "Provide your OPN API Key"
+os.environ["OPENAI_API_KEY"] = "Provide your OPEN API Key"
 openai.api_type = "azure"
 # copied from Open AI
 openai.api_base = "Provide your Open API Base URL"
